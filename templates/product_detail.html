@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <title>{{ product.name }}</title>
+</head>
+<body>
+  <h1>{{ product.name }}</h1>
+  <img src="{{ product.image_url }}" alt="{{ product.name }}" width="200"><br>
+  <p>Categoria: {{ product.category }}</p>
+  <p>Prezzo: €{{ product.price }}</p>
+  <p>Disponibilità: {{ product.stock }}</p>
+  <a href="{{ url_for('anteprima_prodotti') }}">Torna ai prodotti</a>
+</body>
+</html>

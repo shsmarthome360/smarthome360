@@ -1,0 +1,4 @@
+sku,name,category,price,stock,image_url
+1001,Videocitofono Smart,Domotica,129.90,15,/static/img/video.jpg
+1002,Termostato Wi-Fi,Domotica,89.90,8,/static/img/termo.jpg
+1003,Telecamera IP,Basico,59.90,20,/static/img/cam.jpg
